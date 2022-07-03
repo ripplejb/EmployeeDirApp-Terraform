@@ -2,4 +2,5 @@
 plan
 terraform.tfstate.backup
 terraform.tfstate
+.terraform/
 .terraform/providers/registry.terraform.io/hashicorp/aws/3.75.2/linux_amd64/terraform-provider-aws_v3.75.2_x5
