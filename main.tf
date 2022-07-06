@@ -9,9 +9,18 @@ terraform {
 
 provider "aws" {
   region = "us-east-1"
-  profile = "hotmail_account"
 }
 
 module "ec2" {
   source = "./ec2"
+}
+
+terraform {
+  cloud {
+    organization = "ripplejb"
+
+    workspaces {
+      name = "employee-dir-workspace"
+    }
+  }
 }
