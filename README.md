@@ -1,4 +1,4 @@
-# EmployeeDirApp-Terraform
+# Terraform
 
 1. [Setup AWS account profile locally](https://docs.aws.amazon.com/toolkit-for-visual-studio/latest/user-guide/keys-profiles-credentials.html).
 1. Clone the repo.
