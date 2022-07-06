@@ -16,5 +16,6 @@ Terraform apply plan
 1. Once the resources are created, you can view the resources in your AWS account.
 1. To destroy the resources on AWS, run the command below.
 ```bash
-Terraform destroy plan
+Terraform destroy 
 ```
+
